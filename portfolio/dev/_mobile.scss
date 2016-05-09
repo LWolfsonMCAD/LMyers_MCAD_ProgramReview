@@ -1,0 +1,161 @@
+/************************************
+  Tablet Friendly
+************************************/
+@media only screen and (max-width: 768px) {
+
+div.content {
+	div#about {
+		padding: 0 0 1em;
+
+		div.mypic {
+			float: none;
+			width: 90%;
+			margin: auto;
+		}
+
+		div.blurb {
+			float: none;
+			width: 80%;
+			margin: 2em auto;
+
+			p {
+				margin-top: 0;
+				font-size: 1.1em;
+				line-height: 1.5;
+			}
+		}
+
+	}
+
+	div#projects {
+		width: 80%;
+		margin: auto;
+		padding: 0;
+
+		div.project {
+			float: none;
+			width: 60%;
+			height: auto;
+			overflow: hidden;
+			margin: auto;
+			padding: 2em 0 5em;
+
+			img {
+				width: 100%;
+				margin: 0;
+			}
+
+			a.button {
+				margin: 0.8em auto;
+			}
+		}
+
+		div.project:nth-of-type(1) {
+			padding-top: 0;
+		}
+
+		div.project:nth-of-type(3) {
+			margin: auto;
+		}
+	}
+
+	div#contact {
+		form#ajax-contact {
+			width: 50%;
+    		margin: 2em auto;
+
+		}
+	}
+
+	footer {
+		ul#extras {
+			width: 60%;
+		}
+	}
+
+}
+
+}
+
+
+/************************************
+## Mobile styles
+************************************/
+@media screen and (max-width: 499px) {
+
+header {
+	padding: 1em 0 1.5em;
+
+	nav {
+		height: auto;
+		overflow: hidden;
+
+		ul#main-navigation {
+			width: 80%;
+
+			li {
+				width: 45%;
+				margin: 1em 2%;
+				text-align: left;
+			}
+
+		}
+	}
+}
+
+div.content {
+	div#intro {
+		width: 90%;
+	}
+
+	div#about {
+		width: 90%;
+
+		div.mypic {
+			width: 90%;
+		}
+
+		div.blurb {
+			width: 90%;
+		}
+
+	}
+
+	div#projects {
+		width: 90%;
+
+		div.project {
+			width: 90%;
+		}
+	}
+
+	div#contact {
+		width: 90%;
+		margin: auto;
+		padding: 0;
+
+		div.blurb {
+			width: 90%;
+			padding: 0;
+
+			p {
+				float: left;
+				width: 70%;
+				margin: 0;
+				padding: 0;
+			}
+		}
+		form#ajax-contact {
+			width: 80%;
+    		margin: 2em auto;
+
+		}
+	}
+
+	footer {
+		ul#extras {
+			width: 80%;
+		}
+	}
+}
+}
